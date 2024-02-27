@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage BackgroundImageSource="fonas_maistas.jpg"
+	xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="MomsNotebook.Views.FoodPage">
+
+    <ContentPage.Content>
+        <StackLayout>
+            <AbsoluteLayout>
+                <ImageButton 
+                    AbsoluteLayout.LayoutBounds="90,400,50,50"
+                    Source="breastfeeding.png"
+                    BackgroundColor="Transparent" 
+                    Clicked="Krutine_Clicked" />
+                <ImageButton 
+                    AbsoluteLayout.LayoutBounds="160,90,50,50"
+                    Source="gerimai.png"
+                    BackgroundColor="Transparent" 
+                    Clicked="Misinukai_Clicked" />
+                <ImageButton 
+                    AbsoluteLayout.LayoutBounds="280,265,50,50"
+                    Source="sriuba.png"
+                    BackgroundColor="Transparent"
+                    Clicked="Maitinimas_Clicked" />
+            </AbsoluteLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+

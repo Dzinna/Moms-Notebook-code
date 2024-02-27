@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MomsNotebook.Services.SynchronizationService" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAQAAAAAAAAICAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Services\SynchronizationService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MomsNotebook.Services.CompareData&lt;T&gt;" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\SynchronizationService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MomsNotebook.Services.ExitApp.CloseApplication" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\ExitApp\CloseApplication.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MomsNotebook.Services.Ftp.FtpSyncService" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAEAAEAAAAIAAAAEAAAgAAAAAAACAAA=</HashCode>
+      <FileName>Services\Ftp\FtpSyncService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MomsNotebook.Services.Repositories.MySqlDatabase" BaseTypeListCollapsed="true">
+    <Position X="6.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ADAAAAAAASQEAAEAAAAAAAAAQAAAAAAgAAAAQACCAgA=</HashCode>
+      <FileName>Services\Repositories\MySqlDatabase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MomsNotebook.Services.Repositories.SqlLiteDatabase" BaseTypeListCollapsed="true">
+    <Position X="11.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AgwQAFBAgAAAAAMABKAoABABIAEgMEAAWAAAIAABAAE=</HashCode>
+      <FileName>Services\Repositories\SqlLiteDatabase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="MomsNotebook.Services.ISynchronizationService">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Services\ISynchronizationService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MomsNotebook.Services.ExitApp.ICloseApplication">
+    <Position X="2.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\ExitApp\ICloseApplication.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MomsNotebook.Services.Ftp.IFtpSyncService">
+    <Position X="2.75" Y="3.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAEAAEAAAAIAAAAEAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Services\Ftp\IFtpSyncService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MomsNotebook.Services.Repositories.IMySqlDatabase">
+    <Position X="4.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAASQEAAAAAAAAAAAAQAAAAAAgAAAAQACAAAA=</HashCode>
+      <FileName>Services\Repositories\IMySqlDatabase.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MomsNotebook.Services.Repositories.ISqlLiteDatabase">
+    <Position X="9.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AgwAAFBAgAAAAAMABKAoABABAAEgMEAAWAAAIAAAAAE=</HashCode>
+      <FileName>Services\Repositories\ISqlLiteDatabase.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

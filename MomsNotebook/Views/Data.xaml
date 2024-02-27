@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage 
+    BarBackgroundColor="LightBlue"
+	xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:local="clr-namespace:MomsNotebook.Views;assembly=MomsNotebook"
+	xmlns:flu="clr-namespace:MomsNotebook.Views.Helpers.Flu;assembly=MomsNotebook"    
+	xmlns:height="clr-namespace:MomsNotebook.Views.Helpers.Height;assembly=MomsNotebook"    
+	xmlns:temperature="clr-namespace:MomsNotebook.Views.Helpers.Temperature;assembly=MomsNotebook"    
+	xmlns:moves="clr-namespace:MomsNotebook.Views.Helpers.Move;assembly=MomsNotebook"    
+	xmlns:notes="clr-namespace:MomsNotebook.Views.Helpers.Note;assembly=MomsNotebook"    
+	xmlns:weight="clr-namespace:MomsNotebook.Views.Helpers.Weight;assembly=MomsNotebook"    
+	xmlns:teeth="clr-namespace:MomsNotebook.Views.Helpers.Tooth;assembly=MomsNotebook"   
+	xmlns:info="clr-namespace:MomsNotebook.Views.Helpers.Info;assembly=MomsNotebook"
+    x:Class="MomsNotebook.Views.Data"
+    Title="Duomenys">
+
+    <weight:WeightPage IconImageSource="svoris.png"/>
+
+    <height:HeightPage IconImageSource="ugis.png"/>
+
+    <teeth:ToothsViewPage IconImageSource="dantys.png"/>
+
+    <moves:MovesPage IconImageSource="judesiai.png"/>
+
+    <temperature:TemperaturePage IconImageSource="temperatura.png"/>
+
+    <flu:FlusPage IconImageSource="gydytojai.png"/>
+
+    <info:InfoPage IconImageSource="info.png"/>
+
+    <notes:NotesPage IconImageSource="uzrasai.png" />
+
+</TabbedPage>
+

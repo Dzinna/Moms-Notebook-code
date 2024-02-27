@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage BackgroundImageSource="fonas_bendras.jpg"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MomsNotebook.Views.Helpers.Drugs.DrugsPage"
+             Title="{Binding Title}">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Atšaukti" Clicked="Cancel_Clicked" />
+        <ToolbarItem Text="Išsaugoti" Clicked="Save_Clicked" />
+        <ToolbarItem Text="Ištrinti" Clicked="Delete_Clicked" />
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+        <StackLayout Spacing="20" Padding="15">
+            <Entry Text="{Binding Drug.DrugName}" 
+            x:Name="DrugName" 
+            FontSize="Medium" 
+            Placeholder="Vaisto pavadinimas"
+            Keyboard="Text"/>
+
+            <Editor Text="{Binding Drug.DrugSize}"
+            x:Name="DrugQuantity" 
+            FontSize="Medium" 
+            Placeholder="Duotas kiekis" 
+            Keyboard="Text"/>
+
+            <TimePicker x:Name="CurrentTimePicker">
+                <TimePicker.Format>HH:mm</TimePicker.Format>
+            </TimePicker>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

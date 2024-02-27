@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MomsNotebook.ViewModels.BabyHeightViewModel">
+    <Position X="0.5" Y="8" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAQAASAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\BabyHeightViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MomsNotebook.ViewModels.BabyWeightViewModel">
+    <Position X="5" Y="5.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAQAAgAAAAAABAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\BabyWeightViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MomsNotebook.ViewModels.BaseViewModel">
+    <Position X="11" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQEAAAEAAIEAAAABAgAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\BaseViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MomsNotebook.ViewModels.BathingViewModel">
+    <Position X="14.5" Y="5.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAYCAAAAAAAAAAAAAAAAAgAAEAAAAAAA=</HashCode>
+      <FileName>ViewModels\BathingViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MomsNotebook.ViewModels.ContactsPageViewModel">
+    <Position X="14.5" Y="9.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>BAAIAAAAAAAAAAAAKAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\ContactsPageViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MomsNotebook.ViewModels.DiperingViewModel">
+    <Position X="0.5" Y="5.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAIAAAAAAAAAAAAACAgAAABAAAAAA=</HashCode>
+      <FileName>ViewModels\DiperingViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MomsNotebook.ViewModels.DrinksViewModel">
+    <Position X="7.5" Y="5.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAQAAAAAAAAAIAAAAAAAAgAAAgAAAAAA=</HashCode>
+      <FileName>ViewModels\DrinksViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MomsNotebook.ViewModels.DrugsPageViewModel">
+    <Position X="7.75" Y="8" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAIAAAAAIAAAAAAAIAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\DrugsPageViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MomsNotebook.ViewModels.FeedingPageViewModel">
+    <Position X="16.75" Y="5.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAIAAABAEAAQAAABAAgBAAQAAACAA=</HashCode>
+      <FileName>ViewModels\FeedingPageViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MomsNotebook.ViewModels.FlusViewModel">
+    <Position X="16.75" Y="9.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ECAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAgAABAAAAAAA=</HashCode>
+      <FileName>ViewModels\FlusViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MomsNotebook.ViewModels.HealthViewModel">
+    <Position X="2.75" Y="5.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAICgAAAAAAAAAAIAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\HealthViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MomsNotebook.ViewModels.InfoViewModel">
+    <Position X="9.75" Y="5.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>ViewModels\InfoViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MomsNotebook.ViewModels.MarkersViewModel">
+    <Position X="12" Y="5.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\MarkersViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MomsNotebook.ViewModels.MovesViewModel">
+    <Position X="12.25" Y="9.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAQAAAAAEAAAAAAAAACAAgAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\MovesViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MomsNotebook.ViewModels.NotesViewModel">
+    <Position X="19.25" Y="5.25" Width="2" />
+    <InheritanceLine Type="MomsNotebook.ViewModels.BaseViewModel" ManuallyRouted="true">
+      <Path>
+        <Point X="12.125" Y="3.728" />
+        <Point X="12.125" Y="4.05" />
+        <Point X="14.294" Y="4.05" Type="JumpStart" />
+        <Point X="14.46" Y="4.05" Type="JumpEnd" />
+        <Point X="20.25" Y="4.05" />
+        <Point X="20.25" Y="5.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAQAAAAQAAAAAAAAAAAAAAAAAAgAAAAAEAAAA=</HashCode>
+      <FileName>ViewModels\NotesViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MomsNotebook.ViewModels.SleepViewModel">
+    <Position X="3.25" Y="8" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAQAAAAAAIAAAAAAAAAAAIAAAgAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\SleepViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MomsNotebook.ViewModels.TemperatureViewModel">
+    <Position X="5.5" Y="8" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAIAAAAAAAAAAAAAAAgAAAAAAMAAA=</HashCode>
+      <FileName>ViewModels\TemperatureViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MomsNotebook.ViewModels.ToothsViewModel">
+    <Position X="10" Y="8" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ACAAAoAAIAAAAYAAEAAgAQAAAAAQAQAAgBCABIAAAgA=</HashCode>
+      <FileName>ViewModels\ToothsViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

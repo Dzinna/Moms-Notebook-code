@@ -1,0 +1,178 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Enums.NET" Version="3.0.3" />
+    <PackageReference Include="FluentFTP" Version="32.4.3" />
+    <PackageReference Include="MySqlConnector" Version="0.69.1" />
+    <PackageReference Include="sqlite-net-pcl" Version="1.7.335" />
+    <PackageReference Include="Xamarin.Forms" Version="4.6.0.847" />  
+    <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />  
+    <PackageReference Include="Xamarin.Plugin.Calendar" Version="1.2.1411" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Views\About.xaml.cs">
+      <DependentUpon>About.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Data.xaml.cs">
+      <DependentUpon>Data.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Helpers\Bathing\BathingPage.xaml.cs">
+      <DependentUpon>BathingPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Helpers\Contacts\CommonContacts.xaml.cs">
+      <DependentUpon>CommonContacts.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Helpers\Contacts\DoctorsContacts.xaml.cs">
+      <DependentUpon>DoctorsContacts.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Helpers\Contacts\CompaniesContacts.xaml.cs">
+      <DependentUpon>CompaniesContacts.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Helpers\Drink\DrinksPage.xaml.cs">
+      <DependentUpon>DrinksPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Helpers\Flu\FlusPage.xaml.cs">
+      <DependentUpon>FlusPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Helpers\Contacts\ContactsViewPage.xaml.cs">
+      <DependentUpon>ContactsViewPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Helpers\Sleep\SleepPage.xaml.cs">
+      <DependentUpon>SleepPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Contacts.xaml.cs">
+      <DependentUpon>Contacts.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\DailyRoutine.xaml.cs">
+      <DependentUpon>DailyRoutine.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\FoodPage.xaml.cs">
+      <DependentUpon>FoodPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Exit.xaml.cs">
+      <DependentUpon>Exit.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Register.xaml.cs">
+      <DependentUpon>Register.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Helpers\Move\MovesPage.xaml.cs">
+      <DependentUpon>MovesPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Helpers\Health\HealthPage.xaml.cs">
+      <DependentUpon>HealthPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Helpers\Height\HeightPage.xaml.cs">
+      <DependentUpon>HeightPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Helpers\Note\NotesPage.xaml.cs">
+      <DependentUpon>NotesPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Helpers\Dipering\DiperingPage.xaml.cs">
+      <DependentUpon>DiperingPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Helpers\Temperature\TemperaturePage.xaml.cs">
+      <DependentUpon>TemperaturePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Login.xaml.cs">
+      <DependentUpon>Login.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Helpers\Weight\WeightPage.xaml.cs">
+      <DependentUpon>WeightPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Helpers\Tooth\ToothsPage.xaml.cs">
+      <DependentUpon>ToothsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Helpers\Bathing\BathingsViewPage.xaml.cs">
+      <DependentUpon>BathingsViewPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Helpers\Dipering\DiperingViewPage.xaml.cs">
+      <DependentUpon>DiperingViewPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Helpers\Drink\DrinksViewPage.xaml.cs">
+      <DependentUpon>DrinksViewPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Helpers\Flu\FlusViewPage.xaml.cs">
+      <DependentUpon>FlusViewPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Helpers\Food\FoodFeedPage.xaml.cs">
+      <DependentUpon>FoodFeedPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Helpers\Health\HealthViewPage.xaml.cs">
+      <DependentUpon>HealthViewPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Helpers\Height\HeightViewPage.xaml.cs">
+      <DependentUpon>HeightViewPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Helpers\Info\InfoPage.xaml.cs">
+      <DependentUpon>InfoPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Helpers\Move\MovesViewPage.xaml.cs">
+      <DependentUpon>MovesViewPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Helpers\Note\NotesViewPage.xaml.cs">
+      <DependentUpon>NotesViewPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Helpers\Sleep\SleepViewPage.xaml.cs">
+      <DependentUpon>SleepViewPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Helpers\Temperature\TemperatureViewPage.xaml.cs">
+      <DependentUpon>TemperatureViewPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Helpers\Tooth\ToothsViewPage.xaml.cs">
+      <DependentUpon>ToothsViewPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Helpers\Weight\WeightViewPage.xaml.cs">
+      <DependentUpon>WeightViewPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Helpers\Marker\MarkersViewPage.xaml.cs">
+      <DependentUpon>MarkersViewPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Views\Helpers\Contacts\ContactsViewPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Helpers\Drugs\DrugsPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Helpers\Food\ChestFeedPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Helpers\Food\ChestFeedViewPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Helpers\Food\FoodViewPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Helpers\Marker\MarkerPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\MainPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\RootPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\RootPageDetail.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\RootPageMaster.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Synchronize.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

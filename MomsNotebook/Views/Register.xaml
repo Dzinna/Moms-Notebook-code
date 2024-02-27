@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+	xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="MomsNotebook.Views.Register"
+    Title="Registruotis">
+
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center" MinimumWidthRequest="200">
+        <Entry x:Name="email"
+            FontSize="Medium" 
+            Placeholder="Elektroninis paštas"
+            Keyboard="Text" />
+
+        <Entry x:Name="pass"
+            FontSize="Medium" 
+            Placeholder="Slaptažodis"
+            Keyboard="Text" 
+            IsPassword="True" />
+
+        <Entry x:Name="passRepeat"
+            FontSize="Medium" 
+            Placeholder="Slaptažodis"
+            Keyboard="Text" 
+            IsPassword="True" />
+        
+        <ImageButton Clicked="ImageButton_Clicked"  Source="register.png" WidthRequest="50" HeightRequest="50" BackgroundColor="Transparent"/>
+        <ImageButton Clicked="ImageButton_Clicked_Return"  Source="back.png" WidthRequest="50" HeightRequest="50" BackgroundColor="Transparent"/>
+    </StackLayout>    
+
+</ContentPage>
+

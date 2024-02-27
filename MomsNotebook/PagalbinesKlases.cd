@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MomsNotebook.Utils.DateTimeUtils">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utils\DateTimeUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MomsNotebook.Utils.GlobalProperties">
+    <Position X="4.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAgAAAA4AAIAAAAAAgAAAAAAAAAACAABAAA=</HashCode>
+      <FileName>Utils\GlobalProperties.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MomsNotebook.Utils.MapUtils">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utils\MapUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

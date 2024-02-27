@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Enum Name="MomsNotebook.Models.Enums.ContactType">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAgAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Models\Enums\ContactType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MomsNotebook.Models.Enums.FeedByChestSide">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACACAAAAAAAA=</HashCode>
+      <FileName>Models\Enums\FeedByChestSide.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MomsNotebook.Models.Enums.FoodType">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAQAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Models\Enums\FoodType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MomsNotebook.Models.Enums.Jaw">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Enums\Jaw.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MomsNotebook.Models.Enums.JawSide">
+    <Position X="2.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACACAAAAAAAA=</HashCode>
+      <FileName>Models\Enums\JawSide.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MomsNotebook.Models.Enums.ToothNumber">
+    <Position X="4" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAgAAAAAAAQAAAAAAAAIAIAABAAAAAAAAAAAAAYA=</HashCode>
+      <FileName>Models\Enums\ToothNumber.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

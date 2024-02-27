@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage BackgroundImageSource="fonas_bendras.jpg"
+	xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="MomsNotebook.Views.Helpers.Height.HeightPage">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Įvesti" Clicked="Add_Clicked" />
+    </ContentPage.ToolbarItems>
+
+    <ContentView>
+        <ListView x:Name="BabyHeightListView"
+                ItemsSource="{Binding BabyHeightCollection}"
+                CachingStrategy="RecycleElement"
+                VerticalOptions="FillAndExpand"
+                ItemSelected="OnItemSelected">
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell 
+                        Text="{Binding ActualTime}"                           
+                        Detail="{Binding Height}"                        
+                    />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </ContentView>
+</ContentPage>
+

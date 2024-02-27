@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+	xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="MomsNotebook.Views.About"
+    Title="Apie">
+    <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="Center">
+        <Label Text="Aplikaciją sukūrė" />
+        <Label Text="Gina Golubickienė" />
+        <Label Text="Mobilioji aplikacija 'Mamos užrašinė'" />
+        <Label Text="VVK grupė: PIT-16-I" />
+        <Label Text="Plagijuoti uždrausta, be teisiško sutikimo @ 2020" />
+
+        
+        <ImageButton Clicked="Button_Clicked"  Source="back.png" WidthRequest="50" HeightRequest="50" BackgroundColor="Transparent"/>
+    </StackLayout>
+
+</ContentPage>
+

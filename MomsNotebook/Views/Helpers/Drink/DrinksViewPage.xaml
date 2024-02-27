@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MomsNotebook.Views.Helpers.Drink.DrinksViewPage"             
+             Title="{Binding Title}">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Atšaukti" Clicked="Cancel_Clicked" />
+        <ToolbarItem Text="Išsaugoti" Clicked="Save_Clicked" />
+        <ToolbarItem Text="Ištrinti" Clicked="Delete_Clicked" />
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+        <StackLayout Spacing="20" Padding="15">
+            <Editor Text="{Binding Feeding.FoodDescription}"
+                x:Name="DrinksText" 
+                FontSize="Medium" 
+                Keyboard="Text"
+                AutoSize="TextChanges" 
+                Placeholder="Įrašykite gėrimo pavadinimą"/>
+
+            <DatePicker x:Name="StartDatePicker"
+                    Format="D"
+                    Margin="0, 0, 0, 0" />
+
+            <TimePicker x:Name="CurrentTimePicker">
+                <TimePicker.Format>HH:mm</TimePicker.Format>
+            </TimePicker>
+
+            <Label BindingContext="{x:Reference DrinkQuantity}" Text="{Binding Value, StringFormat='Kiekis {0} ml'}" FontSize="Large"/>
+            <Stepper Minimum="0" Maximum="1000" x:Name="DrinkQuantity" Increment="10" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

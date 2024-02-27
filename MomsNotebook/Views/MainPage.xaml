@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage BackgroundImageSource="fonas_antras.jpg"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MomsNotebook.Views.MainPage">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Mamos užrašinė" />
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+        <StackLayout>
+            <AbsoluteLayout>
+                <ImageButton
+                    Clicked="Kontaktai_Clicked"
+                    AbsoluteLayout.LayoutBounds="90,240,50,50"
+                    Source="kontaktai.png"
+                    BackgroundColor="Transparent"
+                    />
+                <ImageButton
+                    Clicked="Zymekliai_Clicked"
+                    AbsoluteLayout.LayoutBounds="270,290,50,50"
+                    Source="daily.png"
+                    BackgroundColor="Transparent"
+                    Aspect="AspectFit"/>
+                <ImageButton
+                    Clicked="Rutina_Clicked"
+                    AbsoluteLayout.LayoutBounds="135,100,50,50"
+                    Source="food.png"
+                    BackgroundColor="Transparent"
+                    Aspect="AspectFit"/>
+                <ImageButton
+                    Clicked="Duomenys_Clicked"
+                    AbsoluteLayout.LayoutBounds="220,140,50,50"
+                    Source="svoris.png"
+                    BackgroundColor="Transparent"
+                    Aspect="AspectFit"/>
+            </AbsoluteLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

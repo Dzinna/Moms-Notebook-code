@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage BackgroundImageSource="fonas_bendras.jpg"
+	xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"  
+    x:Class="MomsNotebook.Views.Helpers.Tooth.ToothsPage">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Atšaukti" Clicked="Cancel_Clicked" />
+        <ToolbarItem Text="Išsaugoti" Clicked="Save_Clicked" />
+        <ToolbarItem Text="Ištrinti" Clicked="Delete_Clicked" />
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+        <StackLayout Spacing="20" Padding="15">
+            <Picker 
+                ItemDisplayBinding="{Binding Value}"
+                ItemsSource="{Binding JawList}" 
+                SelectedItem="{Binding JawSelectedItem}"
+                x:Name="JawType" 
+                FontSize="Medium" />
+            
+            <Picker 
+                ItemDisplayBinding="{Binding Value}"
+                ItemsSource="{Binding JawSideList}" 
+                SelectedItem="{Binding JawSideSelectedItem}"
+                x:Name="JawSideType" 
+                FontSize="Medium" />
+            
+            <Picker 
+                ItemDisplayBinding="{Binding Value}"
+                ItemsSource="{Binding ToothsList}" 
+                SelectedItem="{Binding ToothSelectedItem}"
+                x:Name="ToothType" 
+                FontSize="Medium" />
+            
+            <DatePicker x:Name="StartDatePicker"
+                    Format="D"
+                    Margin="0, 0, 0, 0"/>
+
+            <TimePicker x:Name="CurrentTimePicker">
+                <TimePicker.Format>HH:mm</TimePicker.Format>
+            </TimePicker>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+

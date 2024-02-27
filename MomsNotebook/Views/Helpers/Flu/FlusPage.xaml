@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage BackgroundImageSource="fonas_bendras.jpg"
+	xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="MomsNotebook.Views.Helpers.Flu.FlusPage">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Įvesti" Clicked="Add_Clicked" />
+    </ContentPage.ToolbarItems>
+
+    <ContentView>
+        <ListView x:Name="FlusListView"
+                ItemsSource="{Binding FlusCollection}"
+                CachingStrategy="RecycleElement"
+                VerticalOptions="FillAndExpand"
+                ItemSelected="OnItemSelected">
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell 
+                        Text="{Binding ActualTime}"                           
+                        Detail="{Binding FluName}"                        
+                    />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </ContentView>
+</ContentPage>
+

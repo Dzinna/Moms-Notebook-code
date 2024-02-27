@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage BackgroundImageSource="fonas_bendras.jpg"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MomsNotebook.Views.Helpers.Contacts.ContactsViewPage"             
+             Title="{Binding Title}">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Atšaukti" Clicked="Cancel_Clicked" />
+        <ToolbarItem Text="Išsaugoti" Clicked="Save_Clicked" />
+        <ToolbarItem Text="Ištrinti" Clicked="Delete_Clicked" />
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+        <StackLayout Spacing="20" Padding="15">
+            <Entry Text="{Binding Contact.Pavadinimas}" 
+            x:Name="ContactName" 
+            FontSize="Medium" 
+            Placeholder="Kontakto pavadinimas"
+            Keyboard="Text" />
+
+            <Editor Text="{Binding Contact.Address}"
+            FontSize="Medium" 
+            Placeholder="Adresas" 
+            AutoSize="TextChanges"
+            Keyboard="Text" />
+
+            <Entry Text="{Binding Contact.HouseNumber}" 
+            FontSize="Medium" 
+            Placeholder="Namo numeris"
+            Keyboard="Numeric" />
+
+            <Entry Text="{Binding Contact.FlatNumber}" 
+            FontSize="Medium" 
+            Placeholder="Buto numeris"
+            Keyboard="Numeric" />
+
+            <Entry Text="{Binding Contact.Telephone}" 
+            FontSize="Medium" 
+            Placeholder="Mobilus numeris"
+            Keyboard="Telephone" />
+
+            <Entry Text="{Binding Contact.Mailbox}" 
+            FontSize="Medium" 
+            Placeholder="Elektroninis paštas" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

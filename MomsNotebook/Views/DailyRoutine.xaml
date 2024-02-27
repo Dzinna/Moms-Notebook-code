@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage 
+    BarBackgroundColor="LightBlue"
+	xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:local="clr-namespace:MomsNotebook.Views;assembly=MomsNotebook"
+	xmlns:drinks="clr-namespace:MomsNotebook.Views.Helpers.Drink;assembly=MomsNotebook"    
+	xmlns:bath="clr-namespace:MomsNotebook.Views.Helpers.Bathing;assembly=MomsNotebook"    
+	xmlns:dipers="clr-namespace:MomsNotebook.Views.Helpers.Dipering;assembly=MomsNotebook"    
+	xmlns:health="clr-namespace:MomsNotebook.Views.Helpers.Health;assembly=MomsNotebook"    
+	xmlns:sleep="clr-namespace:MomsNotebook.Views.Helpers.Sleep;assembly=MomsNotebook"
+    x:Class="MomsNotebook.Views.DailyRoutine"
+    Title="{Binding Title}">
+
+    <local:FoodPage IconImageSource="maistas.png"/>
+
+    <drinks:DrinksPage IconImageSource="gerimai.png"/>
+
+    <bath:BathingPage IconImageSource="vonia.png"/>
+
+    <dipers:DiperingPage IconImageSource="sauskelnes.png"/>
+
+    <health:HealthPage IconImageSource="savijauta.png"/>
+
+    <sleep:SleepPage IconImageSource="miegas.png"/>	  
+
+</TabbedPage>
+
